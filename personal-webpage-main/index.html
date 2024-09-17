@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+        <meta name = "description" content = "Pagina personal de Angel">
+        <meta name = "keywords" content="UNAM, FES Aragon, ICO, CV, Pagina Personal">
+
+        <link rel="icon" href="./assets/img/favicon.ico" type = "image/x-icon">
+        <link rel = "stylesheet" href="./assets/css/master.css">
+        <script src="./assets/js/cliente.js"></script>
+        <title>Primera pagina web</title>
+    </head>
+        
+
+    <body>
+        <header>
+            <h1 style="color: green; font-size: 24px; background-color: darkseagreen;">Luis Angel Arteaga Castillo</h1>
+            <nav>
+                <ul>  
+                    <li><a href="https://www.unam.mx/">UNAM </a></li>
+                    <li><a href="https://aragon.unam.mx">FES Aragon</a></li>
+                    <li><a href="https://www.aragon.unam.mx/fes-aragon/#!/oferta-academica/licenciaturas/computacion"> ICO FES Aragon </a></li> 
+                    <li><a href="https://github.com/JapyTing/personal-webpage.git">GitHub</a></li>
+                    <li>
+                        <ul>
+                            <li><a href="code.html"> code </a></li>
+                            <li><a href="listas.html"> Listas </a></li>
+                            <li><a href="enlaces.html"> Enlaces e imagenes </a></li>
+                            <li><a href="tablas.html"> Tablas </a></li>
+                            <li><a href="formularios.html"> Formularios</a></li>
+                        </ul>
+                    </li>
+                    
+
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="informacion-academica">
+                <h1>Informacion Academica</h1>
+                <article>
+                    <h3 onclick="saludar()"> Escolaridad Actual</h3>
+                    <p style="color: rgb(108, 115, 182);background-color: gray; margin: 30px;padding-top: 20px ; padding-left: 10px;" id="parrafo1"> Actualmente estoy cursando la carrera de Ingenieria en computacion en FES Aragon</p>
+                </article>
+            </section>
+
+            <section id="tecnologias">
+                <h1>Tecnologias oi</h1>
+                <article>
+                    <h3>Java, Java FX, Python, SQL, Linux, Html, Javascript, Css, API REST,Consumo de API, Spring Framework </h3>
+                <p id="parrafo2">Dentro de estas tecnologias e creado algunos proyectos pequeños como la creacion de una API REST, crear un catalogo de peliculas consumiendo su API, 
+                    creacion de CRUD conectada a una base de datos diseñada para abogados, creacion de interfacez graficas
+                </p> 
+                <button  onclick="cambiarParrafo2()">Presioname!!!</button>
+                
+                </article>
+                
+            </section>
+
+            <section id="sobre-mi">
+                <h1>Sobre mi...</h1>
+                <article>
+                    <h3> Actualmente me gusta el deporte, gimansio, jugar juegos competitivos y escuchar musica variada, mi artista principal es Joji </h3>
+                <p >En un futuro me gustaria crear musica, realizar mas proyectos enfocados en frontend o ciencia de datos, tratar de leer y cocinar</p> 
+            
+                
+                </article>
+                
+            </section>
+        </main>
+
+        <aside>
+            <h4>Informacion adicional</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea assumenda sapiente                  
+            </p>
+        </aside>
+        <footer>
+            <p>Todos los derechos reservados FES Aragon</p>
+        </footer>
+    </body>
+</html>
