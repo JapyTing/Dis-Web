@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+        <meta name = "description" content = "Pagina personal de Mauricio">
+        <meta name = "keywords" content="UNAM, FES, Aragon">
+        <link rel="icon" href="./assets/img/favicon.ico" type = "image/x-icon">
+        <link rel = "stylesheet" href="./assets/css/master.css">
+        <script src="./assets/js/cliente.js"></script>
+        <title>Primera pagina web</title>
+    </head>
+        
+
+    <body id="cuerpo">
+        <header>
+            <h1 style="color: green;font-size: 24px;background-color: darkseagreen;">MI PAGINA PRINCIPAL</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://aragon.unam.mx">FES Aragon</a></li>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li>
+                        <ul>
+                            <li><a href="code.html">Code</a></li>
+                            <li><a href="listas.html">Listas</a></li>
+                            <li><a href="enlaces.html">Enlaces e imagenes</a></li>
+                            <li><a href="tablas.html">Tablas</a></li>
+                            <li><a href="formularios.html">Formularios</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Formularios</h1>
+                <article>
+                    <h3>Introduccion</h3>
+                    <p>Es un control creado con el tag FORM, el cual permite obtener informaciòn de entrada desde el usuario</p>
+                    <br>
+                    <h5> Atributos importantes</h5>
+                    <ul>
+                        <li>ACTION: Establece la URL destino de los datos</li>
+                        <li>METHOD: Establece el verbo del protocolo HTTP con el cual se enviaran la informaciòn. Los mas usados son GET y POST</li>
+                        <li>NAME: Asigna un nombre al formulario para ser recuperado del lado del servidor</li>
+                    </ul>
+
+                    <br> <!-- Formulario basico -->
+                    <form action="/login.php" method="POST" name="loginfrm"> <!-- Se necesitan metodos para que sea mas seguro mandar informacion de un formulario como por el metodo POST -->
+                        <label for="username">Usuario:</label>
+                        <input type="text" id="username" name="username">
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="password">
+                        <input type="submit" value="enviar">
+                    </form>
+
+
+
+                </article>
+                <article>
+                    <h3>Tipos de entrada</h3>
+                    <p>
+                        <ul>
+                            <li>TEXTO (TEXT): permite capturar texto en claro</li>
+                            <li>Area de texto (TEXTAREA): Permite capturar texto de multiple linea</li>
+                            <li>Contraseña (PASSWORD): Capturar texto oculto </li>
+                            <li>Correo (EMAIL): Permite capturar correos electronicos validados </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </p>
+                </article>
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>Todos los derechos reservados FES Aragon</p>
+        </footer>
+    </body>
+</html>

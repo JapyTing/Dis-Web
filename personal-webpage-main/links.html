@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+        <meta name = "description" content = "Pagina personal de Mauricio">
+        <meta name = "keywords" content="UNAM, FES, Aragon">
+        <link rel="icon" href="./assets/img/favicon.ico" type = "image/x-icon">
+        <link rel = "stylesheet" href="./assets/css/master.css">
+        <script src="./assets/js/cliente.js"></script>
+        <title>Primera pagina web</title>
+    </head>
+        
+
+    <body id="cuerpo">
+        <header>
+            <h1 style="color: green;font-size: 24px;background-color: darkseagreen;">MI PAGINA PRINCIPAL</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://aragon.unam.mx">FES Aragon</a></li>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li>
+                        <ul>
+                            <li><a href="code.html">Code</a></li>
+                            <li><a href="listas.html">Listas</a></li>
+                            <li><a href="enlaces.html">Enlaces e imagenes</a></li>
+                            <li><a href="tablas.html">Tablas </a> </li>
+                            <li><a href="formularios.html">Formularios</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Links e imagenes</h1>
+                <article>
+                    <h3>img</h3>
+                    <p><code style="background-color: lightgrey;">&lt;A &gt;</code> Es un tag para incrustar imagenes</p>
+                    <ul>
+                        <li>title</li>
+                        <li>href</li>
+                        <li>target</li>
+
+                    </ul>
+                    <br>
+                    Opciones de target:
+
+                    <ul>
+                        <li>_SELf: abre en la misma pagina</li>
+                        <li>_BLANK: abre el link en una nueva pàgina de navegador</li>
+                        <li>_PARENT: abre la pagina contenedora de la actual</li>
+                        <li>_TOP: abre en la parte sueperior de la pagina parent.</li>
+                    </ul>
+
+                    ejemplo <a title="link a github"
+                        href="https://github.com"
+                        target="_blank"> <!-- links -->
+                    Sitio de github
+                    </a>
+
+
+
+                </article>
+                <article>
+                    <h3>Imagenes</h3>
+                    <p>El tag <code style="background-color: lightgrey;" >&lt;IMG &gt;</code> 
+                        sirve para incrustar imagenes</p>
+
+                    <p> Sus atributos son
+                        <ul>
+                            <li>Title: Es el tooltip</li>
+                            <li>src: Es la URL a la imagen, ya sea relativa o absoluta</li>
+                            <li>width: ancho en pixeles</li>
+                            <li>height: alto en pixeles</li>
+                            <li>loading: forma de carga: Lazy o eager </li> <!--Indicar si la imagen esta en el servidos, lazy es cargar las imagenes si no estan en el campo de vision-->
+                        </ul>
+                    </p>
+
+                    <p>
+                        <h3> Probando carga perezoza</h3>
+                        <img title="fondo" src="./assets/img/fondo.jpg"
+                        alt="Imagen de paisaje"
+                        width="720"
+                        height="500"
+                        loading="lazy"
+                        >
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptates sint molestias reprehenderit et, repudiandae ut tenetur, doloremque quaerat fugiat velit exercitationem quod. Dolore deleniti provident nisi nulla velit vitae?
+
+
+                    </p>
+
+                </article>
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>Todos los derechos reservados FES Aragon</p>
+        </footer>
+    </body>
+</html>
